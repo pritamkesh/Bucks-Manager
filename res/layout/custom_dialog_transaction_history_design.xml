@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="3dp"
+      >
+
+    <TextView
+        android:id="@+id/showBankName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:fontFamily="arial"
+        android:textColor="#6B8E23"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/showAccountNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:paddingLeft="15dp"
+        android:fontFamily="arial"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    	        
+</LinearLayout>

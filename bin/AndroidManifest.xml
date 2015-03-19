@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bucksmanager"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" > </uses-permission>
+    
+	<uses-permission android:name="android.permission.SEND_SMS" > </uses-permission>
+	 <uses-permission android:name="android.permission.WRITE_SMS" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        
+        android:theme="@style/MyTheme" >
+        <activity
+            android:name="com.example.bucksmanager.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <receiver android:name=".ResiverSMS">
+     <intent-filter>
+        <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+    </intent-filter>
+</receiver>
+        
+        
+        <activity 
+            android:name=".BankAccountRegistration"
+            android:label="Bank Account Registration"
+            android:parentActivityName="com.example.bucksmanager.MainActivity">
+             <!-- Parent activity meta-data to support 4.0 and lower -->
+        	<meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.bucksmanager.MainActivity" />
+        </activity>
+        
+        <activity 
+            android:name=".ChangePasswordForm"
+            android:label="Change Password"
+            android:parentActivityName="com.example.bucksmanager.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+        	<meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.bucksmanager.MainActivity" />
+        </activity>
+        
+        <activity 
+            android:name=".HomeActivity">
+            
+        </activity>
+        <activity 
+            android:name=".ImageAdapter">
+            </activity>
+            
+            <activity 
+            	android:name=".SettingsActivity"
+            	android:label="Settings"
+            	android:parentActivityName="com.example.bucksmanager.MainActivity">
+     			<!-- Parent activity meta-data to support 4.0 and lower -->
+        		<meta-data
+            	android:name="android.support.PARENT_ACTIVITY"
+            	android:value="com.example.bucksmanager.MainActivity" />
+            </activity>
+            
+        	<activity 
+            	 android:name=".SignUpWindow"
+            	 android:label="SignUp"
+            	 android:parentActivityName="com.example.bucksmanager.MainActivity">
+        	 	 <!-- Parent activity meta-data to support 4.0 and lower -->
+        		<meta-data
+           		 android:name="android.support.PARENT_ACTIVITY"
+           		 android:value="com.example.bucksmanager.MainActivity" />
+            </activity>
+            
+            <activity 
+            	 android:name=".SMSNumberUpdateForm"
+            	 android:label="SMS Number"
+           		 android:parentActivityName="com.example.bucksmanager.MainActivity">
+        		<!-- Parent activity meta-data to support 4.0 and lower -->
+        		<meta-data
+           		 android:name="android.support.PARENT_ACTIVITY"
+           		 android:value="com.example.bucksmanager.MainActivity" />
+            </activity>
+            
+            <activity  
+                android:name=".TransactionHistory"
+                android:label="Transaction History"
+                android:parentActivityName="com.example.bucksmanager.MainActivity">
+                <!-- Parent activity meta-data to support 4.0 and lower -->
+        		<meta-data
+           	 	android:name="android.support.PARENT_ACTIVITY"
+            	android:value="com.example.bucksmanager.MainActivity" />
+            </activity>
+            
+            <activity 
+                android:name=".UserProfileDetails"
+                android:label="Profile" 
+                android:parentActivityName="com.example.bucksmanager.MainActivity">
+                <!-- Parent activity meta-data to support 4.0 and lower -->
+        		<meta-data
+            	android:name="android.support.PARENT_ACTIVITY"
+            	android:value="com.example.bucksmanager.MainActivity" />
+            </activity>
+            
+            
+    </application>
+
+</manifest>

@@ -1,0 +1,223 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFC0C0C0"
+    android:paddingTop="10dip"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D3D3D3"
+        android:orientation="vertical"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="5dp" >
+        
+        <EditText
+            android:id="@+id/regnAccountNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:fontFamily="arial"
+            android:hint="Account Number"
+            android:inputType="number"
+            android:padding="7dp"
+            android:textStyle="normal" >
+
+           
+        </EditText>
+        
+        <View 
+                android:layout_width="match_parent"
+        		android:layout_height="6dp"
+        		android:background="#D3D3D3" ></View>
+
+        <EditText
+            android:id="@+id/regnCardNumber"
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:textStyle="normal" 
+            
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="Card Number"
+            android:inputType="number"
+            android:padding="7dp" />
+        
+        <View 
+                android:layout_width="match_parent"
+        		android:layout_height="6dp"
+        		android:background="#D3D3D3" ></View>
+
+        <EditText
+            android:id="@+id/regnBankName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:inputType="textCapCharacters"
+            android:fontFamily="arial"
+            android:hint="Bank Name"
+            android:padding="7dp"
+            android:textStyle="normal" >
+
+            <requestFocus />
+        </EditText>
+        
+        <View 
+                android:layout_width="match_parent"
+        		android:layout_height="6dp"
+        		android:background="#D3D3D3" ></View>
+        
+        <EditText
+            android:id="@+id/regnBranchName"
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:fontFamily="arial"
+            android:textStyle="normal" 
+            android:inputType="textCapSentences"
+            android:background="#FFFFFF"
+            android:ems="10"
+            
+            android:hint="Branch Name"
+            android:padding="7dp" />
+	
+        	<View 
+                android:layout_width="match_parent"
+        		android:layout_height="6dp"
+        		android:background="#D3D3D3" ></View>
+        	
+        <EditText
+            android:id="@+id/regnBranchAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:fontFamily="arial"
+            android:textStyle="normal" 
+            android:inputType="textCapSentences"
+            android:background="#FFFFFF"
+            android:ems="10"
+            
+            android:hint="Branch Address"
+            android:padding="7dp" />
+
+        	<View 
+                android:layout_width="match_parent"
+        		android:layout_height="6dp"
+        		android:background="#D3D3D3" ></View>
+        	
+        <EditText
+            android:id="@+id/regnIFSC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+         	 android:fontFamily="arial"
+            android:textStyle="normal" 
+            android:background="#FFFFFF"
+            android:ems="10"
+           	android:inputType="textCapCharacters"
+            android:hint="IFSC"
+            android:padding="7dp" />
+
+        <View 
+                android:layout_width="match_parent"
+        		android:layout_height="6dp"
+        		android:background="#D3D3D3" ></View>
+        
+
+        <EditText
+            android:id="@+id/regnRegisteredNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:textStyle="normal" 
+           
+            android:background="#FFFFFF"
+            android:ems="10"
+            
+            android:hint="Registered Number"
+            android:inputType="number"
+            android:padding="7dp" />
+        
+        <View 
+                android:layout_width="match_parent"
+        		android:layout_height="6dp"
+        		android:background="#D3D3D3" ></View>
+        
+         <EditText
+            android:id="@+id/regnAccountType"
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:textStyle="normal" 
+            android:inputType="textCapSentences"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="Account type"
+            android:padding="7dp" />
+        
+         <View 
+                android:layout_width="match_parent"
+        		android:layout_height="6dp"
+        		android:background="#D3D3D3" ></View>
+       
+	</LinearLayout>
+	
+   			 <View 
+                android:layout_width="match_parent"
+        		android:layout_height="16dp"
+        		android:background="#FFC0C0C0" ></View>
+   			 
+   			  <View 
+                android:layout_width="match_parent"
+        		android:layout_height="6dp"
+        		android:background="#D3D3D3" ></View>
+   			 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="#D3D3D3"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" >
+
+        <Button
+            android:id="@+id/regnButnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.45"
+            android:background="#6B8E23"
+            android:fontFamily="arial"
+            android:text="Submit"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        
+        <View 
+                android:layout_width="3dp"
+        		android:layout_height="match_parent"
+        		android:background="#D3D3D3" />
+        
+
+        <Button
+            android:id="@+id/regnButnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.45"
+            android:background="#4169E1"
+            android:fontFamily="arial"
+            android:text="Reset"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+ </LinearLayout>
+

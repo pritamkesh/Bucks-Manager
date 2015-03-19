@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFC0C0C0"
+    android:paddingTop="15dip"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp" 
+        android:background="#D3D3D3">
+
+        <EditText
+            android:id="@+id/personName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10px"
+            android:background="#ffffff"
+            android:ems="10"
+            android:fontFamily="arial"
+            android:textStyle="normal"
+            android:hint="Name"
+            android:padding="10dp" >
+
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10px"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender:" 
+                android:fontFamily="arial"
+                android:textStyle="normal"/>
+           
+        
+        	<RadioGroup
+        	    android:id="@+id/radiogp"
+        	    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+           		 >
+            		
+            		<RadioButton
+               			 android:id="@+id/radio1"
+               			 android:textStyle="normal"
+                		 android:text="Male"
+                		 android:fontFamily="arial" 
+                		/>
+
+            		<RadioButton
+                		android:id="@+id/radio2"
+                		android:textStyle="normal"
+                		android:fontFamily="arial"
+                		android:text="Female" />
+
+            		</RadioGroup>
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/userid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:fontFamily="arial"
+                android:background="#ffffff"
+                android:ems="10"
+                android:textStyle="normal"
+                android:hint="User Name"
+                android:inputType="text"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/passwordNEW"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="arial"
+                android:layout_marginBottom="10px"
+                android:background="#ffffff"
+                android:ems="10"
+                android:textStyle="normal"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/confirmpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:background="#ffffff"
+                android:fontFamily="arial"
+                android:ems="10"
+                android:textStyle="normal"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        
+    </LinearLayout>
+    
+    <View
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:background="#FFC0C0C0"
+             />
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp" 
+        android:paddingBottom="10dp"
+        android:background="#D3D3D3"
+        
+        >
+
+        <Button
+            android:id="@+id/signupButttonForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10px"
+            android:background="#6B8E23"
+            android:fontFamily="arial"
+            android:text="Sign up"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:onClick="completeSignupProcess"
+            />
+
+    </LinearLayout>
+    
+</LinearLayout>

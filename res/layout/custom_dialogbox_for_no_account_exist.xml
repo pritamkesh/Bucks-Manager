@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp"
+    
+     >
+
+    <TextView
+        android:id="@+id/textViewNoAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:textColor="#6B8E23"
+        android:fontFamily="arial"
+        android:textStyle="normal"
+        android:text="It seems like you haven't registered any account. Please, go to SETTINGS to register."
+         />
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC0C0C0"
+    android:orientation="vertical"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="15dip" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#D3D3D3"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="12dp" >
+
+        <EditText
+            android:id="@+id/smsNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:ems="10"
+            android:fontFamily="arial"
+            android:hint="SMS Number"
+            android:inputType="textCapWords"
+            android:padding="10dp" >
+        </EditText>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="#D3D3D3" />
+
+        <Button
+            android:id="@+id/addSMSnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D96B8E23"
+            android:fontFamily="arial"
+            android:text="Add SMS Number"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="#D3D3D3" />
+
+        <Spinner
+            android:id="@+id/spinnerSMSnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="#D3D3D3" />
+        
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="18dp" 
+    >
+ 
+    <ImageView
+        android:id="@+id/grid_item_image"
+        android:layout_width="170px"
+        android:layout_height="180px"
+        android:layout_marginRight="15px"
+        android:background="#ffffff"
+        android:layout_gravity="center"
+        android:src="@drawable/profile_icon" >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/grid_item_label"
+        android:layout_width="96dp"
+        
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="0px"
+        
+        android:text="@+id/label"
+        android:textSize="20px"
+        android:textStyle="bold"
+        android:typeface="serif" />
+ 
+</LinearLayout>

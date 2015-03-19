@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC0C0C0"
+    android:orientation="vertical"
+     >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:stretchColumns="1" >
+
+        <TableRow android:background="#ffffff" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:fontFamily="Arial"
+                android:text="A/C Number :"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:textColor="#6B8E23"
+                android:background="#ffffff"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/textAccountNumber"
+                android:fontFamily="Arial"
+                android:textStyle="normal|bold"
+                android:padding="3dp"
+                android:layout_weight="1"
+                android:textColor="#6B8E23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:layout_marginLeft="5dp"
+                android:background="#ffffff" >
+
+            </TextView>
+        </TableRow>
+                
+        <View 
+                android:layout_width="match_parent"
+        		android:layout_height="0.5dp"
+        		android:background="#FFC0C0C0" />
+        
+        <TableRow >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:fontFamily="Arial"
+                android:padding="3dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:text="Debited :"
+                android:textColor="#6B8E23"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/textWithdrawl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp" 
+                 android:layout_marginBottom="10px"
+                 android:padding="3dp"
+                 android:layout_weight="1"
+                 android:textColor="#6B8E23"
+                android:textStyle="normal|bold"
+            	android:background="#ffffff">
+            </TextView>
+        </TableRow>
+        <View 
+                android:layout_width="match_parent"
+        		android:layout_height="0.5dp"
+        		android:background="#FFC0C0C0" />
+        
+
+        <TableRow >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:layout_weight="1"
+                android:fontFamily="Arial"
+                android:text="Credited :"
+                android:textColor="#6B8E23"
+                android:padding="3dp"
+                android:background="#ffffff"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/textDeposited"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp" 
+                android:layout_marginBottom="10px"
+                android:padding="3dp"
+                android:layout_weight="1"
+                 android:textColor="#6B8E23"
+                android:textStyle="normal|bold"
+            	android:background="#ffffff">
+            </TextView>
+        </TableRow>
+        
+         <View 
+                android:layout_width="match_parent"
+        		android:layout_height="0.5dp"
+        		android:background="#FFC0C0C0" />
+       
+
+        <TableRow >
+
+		<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:fontFamily="Arial"
+                android:text="Balance :"
+                android:textColor="#6B8E23"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:background="#ffffff"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/textBalance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp" 
+                android:layout_marginBottom="10px"
+                android:padding="3dp"
+                android:layout_weight="1"
+                 android:textColor="#6B8E23"
+                android:textStyle="normal|bold"
+            	android:background="#ffffff">
+            </TextView>
+        </TableRow>
+        
+         <View 
+                android:layout_width="match_parent"
+        		android:layout_height="0.5dp"
+        		android:background="#FFC0C0C0" />
+       
+        
+        <TableRow >
+
+		<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:fontFamily="Arial"
+                android:layout_weight="1"
+                android:text="Date :"
+                android:textColor="#6B8E23"
+                android:padding="3dp"
+                android:background="#ffffff"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/textDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1" 
+                android:layout_marginBottom="10px"
+                android:padding="3dp"
+                 android:textColor="#6B8E23"
+                android:textStyle="normal|bold"
+            	android:background="#ffffff">
+            </TextView>
+        </TableRow>
+        
+         <View 
+                android:layout_width="match_parent"
+        		android:layout_height="0.5dp"
+        		android:background="#FFC0C0C0" />
+       
+        <TableRow >
+
+		<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:fontFamily="Arial"
+                android:text="Time :"
+                android:layout_weight="1"
+                android:textColor="#6B8E23"
+                android:padding="3dp"
+                android:background="#ffffff"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/textTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp" 
+                android:layout_marginBottom="10px"
+                android:padding="3dp"
+                android:layout_weight="1"
+                 android:textColor="#6B8E23"
+                android:textStyle="normal|bold"
+            	android:background="#ffffff">
+            </TextView>
+        </TableRow>
+        
+    </TableLayout>
+    
+    <View 
+                android:layout_width="match_parent"
+        		android:layout_height="5dp"
+        		android:background="#FFC0C0C0" />
+        
+
+</LinearLayout>
