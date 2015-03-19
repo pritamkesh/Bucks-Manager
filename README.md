@@ -21,3 +21,5 @@ Now, whenever you get an SMS of your transaction details it will match the Bank 
 & then it will update the traction details.(Without any Internet Connection)
 
 It will show you the last 15 transaction for each Bank Account you have added.
+
+Feel free to report any bugs by mail. Suggestions are welcome.
