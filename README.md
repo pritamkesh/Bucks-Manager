@@ -1,6 +1,7 @@
 # Bucks-Manager
-Implemented Android Application [named as Bucks Manager] that works as a common tracker for all Bank Accounts that itself manages the accounts in user’s hand without internet connection. Whenever customer do a transaction they got sms of their transaction history form respective bank into his mobile. Bucks Manager read the sms, & update the transaction history to the respective account number.
-Install the .apk file .
+===============
+ Implemented Android Application [named as Bucks Manager] that works as a common tracker for all Bank Accounts that itself manages the accounts in user’s hand without internet connection. Whenever customer do a transaction they got sms of their transaction history form respective bank into his mobile. Bucks Manager read the sms, & update the transaction history to the respective account number.
+ Install the .apk file .
 Now, Signup once.
 Then Signin.
 Goto -> Settings tab -> Bank Account Registration.
