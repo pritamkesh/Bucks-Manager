@@ -1,3 +1,12 @@
+/* This is source code of Bank Account Registration.
+* Source Code written by Pritam Kesh.
+
+* E-mail : pritamkesh.summercode@gmail.com
+*
+* To report any bugs please send me an e-mail.
+* Tips are welcome.
+*
+*/
 package com.example.bucksmanager;
 
 import java.text.DecimalFormat; 
@@ -39,7 +48,7 @@ public class ResiverSMS extends BroadcastReceiver {
 		  
 		db1=context.openOrCreateDatabase(DBNAME, context.MODE_PRIVATE,null);
 		
-		//—get the SMS message passed in—
+		//â€”get the SMS message passed inâ€”
 		Bundle bundle = intent.getExtras();
 		SmsMessage[] msgs = null;
 		String messages = "";
@@ -47,7 +56,7 @@ public class ResiverSMS extends BroadcastReceiver {
 		
 		if (bundle != null)
 		{
-			//—retrieve the SMS message received—
+			//â€”retrieve the SMS message receivedâ€”
 			Object[] smsExtra=(Object[]) bundle.get("pdus");
 			msgs=new SmsMessage[smsExtra.length];
 			
@@ -65,7 +74,7 @@ public class ResiverSMS extends BroadcastReceiver {
 			msgNumber=num;
 		}
 		
-		//—display the new SMS message—
+		//â€”display the new SMS messageâ€”
 		//Toast.makeText(context,"Number : "+msgNumber+"\nBody : "+msgbody , Toast.LENGTH_SHORT).show();
 
 		
