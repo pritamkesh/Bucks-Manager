@@ -1,3 +1,12 @@
+/* This is source code of Bank Account Registration.
+* Source Code written by Pritam Kesh.
+
+* E-mail : pritamkesh.summercode@gmail.com
+*
+* To report any bugs please send me an e-mail.
+* Tips are welcome.
+*
+*/
 package com.example.bucksmanager;
 import java.util.List;
 import android.app.Activity;
